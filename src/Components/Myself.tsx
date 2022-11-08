@@ -27,7 +27,7 @@ export const Myself = () => {
                     </div>
                     <div className="col-span-1">
                         <div className="flex justify-between">
-                            <img src="../public/myself_pic.png" className="object-cover h-80 w-100 " style="overflow"/>
+                            <img src="../myself_pic.png" className="object-cover h-80 w-100 " style="overflow"/>
                         </div>
                     </div>
                 </div>
