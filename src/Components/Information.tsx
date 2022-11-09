@@ -86,7 +86,7 @@ export const Information = () => {
                     <div className="col-span-1">
                         <div className="grid">
                             
-                            <p className="text-3xl font-bold ml-4 -mt-16"> Programming Language Level : </p>
+                            <p className="text-3xl font-bold ml-4 -mt-16"> Tech stack level : </p>
                             <div class="p-5 mb-4 rounded-lg border bg-gray-800 border-gray-700 ml-8 mr-16">
                                 <p class="text-lg font-semiboldtext-white"> Beginner</p>
                                 <ol class="mt-3 divide-y divide-gray-700">
