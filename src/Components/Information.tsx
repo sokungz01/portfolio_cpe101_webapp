@@ -2,7 +2,7 @@
 export const Information = () => {
     return(
         <>  
-        <section id="information-section" className="h-full pt-32" >
+        <section id="information-section" className="h-full " >
                 <p className="text-3xl font-bold pl-20 pb-6"> Education : </p>
                 <div className="grid grid-cols-2">
                     <div className="col-span-1">

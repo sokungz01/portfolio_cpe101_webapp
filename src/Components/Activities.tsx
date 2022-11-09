@@ -1,7 +1,7 @@
 export const Activities = () =>
 {
     return(
-        <section id="activities-section" className="h-full mt-32" >
+        <section id="activities-section" className="h-full" >
              <p className="text-3xl font-bold pl-20 pb-6 mt-32"> Activities : </p>
              <div class="p-5 mb-4 rounded-lg border bg-gray-800 border-gray-700 mr-16 ml-16">
                 <div className="grid grid-cols-2">

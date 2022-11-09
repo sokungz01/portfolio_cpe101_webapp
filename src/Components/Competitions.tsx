@@ -2,7 +2,7 @@
 export const Competitions = () => {
     return(
         <>  
-        <section id="competitions-section" className="h-full mb-32" >
+        <section id="competitions-section" className="h-full" >
                 <p className="text-3xl font-bold pl-20 pb-6 mt-32"> Competitions on 2019 : </p>
                 <div className="grid grid-cols-2">
                     <div className="col-span-1">
