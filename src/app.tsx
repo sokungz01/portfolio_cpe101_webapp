@@ -6,10 +6,12 @@ export function App() {
 
     <div>
       <Navbar />
-      <header className="h-screen bg-gradient-to-b from-gray-900 to-slate-800 flex flex-col text-white p-20">
+      <div className="h-screen bg-gradient-to-b from-gray-900 to-slate-800 flex flex-col text-white pt-32">
         <Myself/>
         <Information/>
-      </header>
+      </div>
+      <div className="h-screen bg-gradient-to-b from-slate-800 to-slate-700 flex flex-col text-white">
+      </div>
     </div>
     
   );

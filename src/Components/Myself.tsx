@@ -2,7 +2,7 @@ export const Myself = () => {
     return(
         <>  
         <section id="home-section" className="h-full" >
-                <div className="grid grid-cols-2" >
+                <div className="grid grid-cols-2 mt-16" >
                     <div className="col-span-1">
                         <div className="grid ml-32 mt-16">
                             
@@ -26,8 +26,10 @@ export const Myself = () => {
                         </div>
                     </div>
                     <div className="col-span-1">
-                        <div className="flex justify-between">
-                            <img src="../myself_pic.png" className="object-cover h-80 w-100 " style="overflow"/>
+                        <div className="ml-16 flex justify-between">
+                            <a className="block relative">
+                                <img src="../myself_pic.png" className="object-cover h-80 w-100 rounded-tl-full rounded-tr-full bg-gray-700" />
+                            </a>
                         </div>
                     </div>
                 </div>
