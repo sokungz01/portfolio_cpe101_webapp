@@ -2,6 +2,7 @@ import { Navbar } from './Components/Navbar'
 import { Myself } from './Components/Myself'
 import { Information } from './Components/Information'
 import { Competitions } from './Components/Competitions';
+import { Activities } from './Components/Activities';
 export function App() {
   return (
 
@@ -14,8 +15,12 @@ export function App() {
       <div className="h-screen bg-gradient-to-b from-slate-800 to-slate-800 flex flex-col text-white"></div>
       <div className="h-screen bg-gradient-to-b from-slate-800 to-slate-700 flex flex-col text-white">
         <Competitions/>
+        <Activities/>
       </div>
       <div className="h-screen bg-gradient-to-b from-slate-700 to-slate-700 flex flex-col text-white"></div>
+      <div className="h-screen bg-gradient-to-b from-slate-700 to-slate-600 flex flex-col text-white">
+        
+      </div>
     </div>
     
   );
