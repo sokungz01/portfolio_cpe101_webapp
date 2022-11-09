@@ -2,8 +2,8 @@
 export const Competitions = () => {
     return(
         <>  
-        <section id="competitions-section" className="h-full mt-32" >
-                <p className="text-3xl font-bold pl-20 pb-6"> Competition on 2019 : </p>
+        <section id="competitions-section" className="h-full mb-16" >
+                <p className="text-3xl font-bold pl-20 pb-6 mt-32"> Competition on 2019 : </p>
                 <div className="grid grid-cols-2">
                     <div className="col-span-1">
                         <div className="grid ml-16 mr-4">

@@ -1,7 +1,7 @@
 export const Myself = () => {
     return(
         <>  
-        <section id="home-section" className="h-full" >
+        <section id="home-section" className="h-full mb-32" >
                 <div className="grid grid-cols-2 mt-16" >
                     <div className="col-span-1">
                         <div className="grid ml-32 mt-16">
