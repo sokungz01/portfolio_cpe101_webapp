@@ -21,6 +21,9 @@ export const Myself = () => {
                                 <button className="btn bg-sky-400 rounded-2xl text-black mt-2 px-4 py-2 hover:bg-sky-600 hover:text-gray-300 hover:border-solid hover:border hover:border-white">
                                 <a href="https://facebook.com/sokungz01" target="_blank"> Contact me</a>
                                 </button>
+                                <button className="ml-3 btn bg-sky-400 rounded-2xl text-black mt-2 px-4 py-2 hover:bg-sky-600 hover:text-gray-300 hover:border-solid hover:border hover:border-white">
+                                <a href="https://drive.google.com/file/d/1Va08_YQLUiwsPbmo-rXmxXgIsipQP9jL/view?usp=sharing" target="_blank"> View portfolio</a>
+                                </button>
                             </div>
                             <p className="text-gray-700 text-lg mt-3 italic"> */ </p>
                         </div>

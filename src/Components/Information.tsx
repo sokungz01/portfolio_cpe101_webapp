@@ -2,17 +2,17 @@
 export const Information = () => {
     return(
         <>  
-        <section id="information-section" className="h-full pt-20" >
+        <section id="information-section" className="h-full pt-32" >
                 <p className="text-3xl font-bold pl-20 pb-6"> Education : </p>
                 <div className="grid grid-cols-2">
                     <div className="col-span-1">
-                        <div className="grid ml-32">
+                        <div className="grid ml-16 mr-4">
 
                             <div class="p-5 mb-4 rounded-lg border bg-gray-800 border-gray-700">
                                 <time class="text-lg font-semiboldtext-white"> May , 2010 - March , 2016</time>
                                 <ol class="mt-3 divide-y divide-gray-700">
                                     <li>
-                                        <a href="#" class="block items-center p-3 sm:flex hover:bg-gray-700">
+                                        <a class="block items-center p-3 sm:flex hover:bg-gray-700">
                                             <img class="mr-3 mb-3 w-20 h-20 rounded-full sm:mb-0" src="../msk.png" />
                                             <div class="text-gray-400">
                                                 <div class="text-base font-normal"><span class="font-medium text-white">Mueang Samut SongKhram School</span></div>
@@ -29,9 +29,9 @@ export const Information = () => {
                             </div>
                             <div class="p-5 mb-4 rounded-lg border bg-gray-800 border-gray-700">
                                 <time class="text-lg font-semiboldtext-white"> May , 2016 - March , 2022</time>
-                                <ol class="relative mt-3 divide-y divide-gray-700">
+                                <ol class="mt-3 divide-y divide-gray-700">
                                     <li>
-                                        <a href="#" class="block items-center p-3 sm:flex hover:bg-gray-700">
+                                        <a class="block items-center p-3 sm:flex hover:bg-gray-700">
                                             <img class="mr-3 mb-3 w-16 h-16 rounded-full sm:mb-0" src="../st.png" />
                                             <div class="text-gray-400">
                                                 <div class="text-base font-normal"><span class="font-medium text-white">Satthasamut School</span> </div>
@@ -45,7 +45,7 @@ export const Information = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" class="block items-center p-3 sm:flex hover:bg-gray-700">
+                                        <a class="block items-center p-3 sm:flex hover:bg-gray-700">
                                             <img class="mr-3 mb-3 w-16 h-16 rounded-full sm:mb-0" src="../st.png" />
                                             <div class="text-gray-400">
                                                 <div class="text-base font-normal"><span class="font-medium text-white">Satthasamut School</span> </div>
@@ -65,7 +65,7 @@ export const Information = () => {
                                 <time class="text-lg font-semiboldtext-white"> August , 2022 - now</time>
                                 <ol class="mt-3 divide-y divide-gray-700">
                                     <li>
-                                        <a href="#" class="block items-center p-3 sm:flex hover:bg-gray-700">
+                                        <a class="block items-center p-3 sm:flex hover:bg-gray-700">
                                             <img class="mr-3 mb-3 w-16 h-16 rounded-full sm:mb-0" src="../kmutt.png" />
                                             <div class="text-gray-400">
                                                 <div class="text-base font-normal"><span class="font-medium text-white">King Mongkut's University of Technology Thonburi</span> </div>
@@ -87,11 +87,11 @@ export const Information = () => {
                         <div className="grid">
                             
                             <p className="text-3xl font-bold ml-4 -mt-16"> Tech stack level : </p>
-                            <div class="p-5 mb-4 rounded-lg border bg-gray-800 border-gray-700 ml-8 mr-16">
+                            <div class="p-5 mb-4 rounded-lg border bg-gray-800 border-gray-700 ml-4 mr-16">
                                 <p class="text-lg font-semiboldtext-white"> Beginner</p>
                                 <ol class="mt-3 divide-y divide-gray-700">
                                     <li>
-                                        <a href="#" class="block items-center p-3 sm:flex hover:bg-gray-700 justify-center">
+                                        <a class="block items-center p-3 sm:flex hover:bg-gray-700 justify-center">
                                             <img class="mr-3 mb-3 w-20 h-20 rounded-full sm:mb-0" src="../react.png" />
                                             <img class="mr-3 mb-3 w-20 h-20 rounded-full sm:mb-0" src="../nodejs.png" />
                                             <img class="mr-3 mb-3 w-20 h-20 rounded-full sm:mb-0" src="../tailwind.png" />
@@ -101,7 +101,7 @@ export const Information = () => {
                                 <p class="text-lg font-semiboldtext-white"> Intermediate </p>
                                 <ol class="mt-3 divide-y divide-gray-700">
                                     <li>
-                                        <a href="#" class="block items-center p-3 sm:flex hover:bg-gray-700 justify-center">
+                                        <a class="block items-center p-3 sm:flex hover:bg-gray-700 justify-center">
                                             <img class="mr-3 mb-3 w-25 h-20 rounded-full sm:mb-0" src="../c.png" />
                                             <img class="mr-3 mb-3 w-25 h-20 rounded-full sm:mb-0" src="../cpp.png" />
                                             <img class="mr-3 mb-3 w-20 h-20 rounded-full sm:mb-0" src="../typescript.png" />
@@ -111,7 +111,7 @@ export const Information = () => {
                                 <p class="text-lg font-semiboldtext-white"> Advanced </p>
                                 <ol class="mt-3 divide-y divide-gray-700">
                                     <li>
-                                        <a href="#" class="block items-center p-3 sm:flex hover:bg-gray-700 justify-center">
+                                        <a class="block items-center p-3 sm:flex hover:bg-gray-700 justify-center">
                                             <img class="mr-3 mb-3 w-20 h-20 rounded-full sm:mb-0" src="../php.png" />
                                             <img class="mr-3 mb-3 w-30 h-20 rounded-full sm:mb-0" src="../sql.png" />
                                         </a>

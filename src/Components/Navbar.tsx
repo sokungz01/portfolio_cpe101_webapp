@@ -67,10 +67,10 @@ export const Navbar = () => {
             </li>
             <li>
               <a
-                href="#gallery-section"
+                href="#works-section"
                 class="block py-2 pr-4 pl-3  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
-                Gallery
+                Works
               </a>
             </li>
           </ul>
