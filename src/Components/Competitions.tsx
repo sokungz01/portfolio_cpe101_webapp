@@ -3,7 +3,7 @@ export const Competitions = () => {
     return(
         <>  
         <section id="competitions-section" className="h-full mb-16" >
-                <p className="text-3xl font-bold pl-20 pb-6 mt-32"> Competition on 2019 : </p>
+                <p className="text-3xl font-bold pl-20 pb-6 mt-32"> Competitions on 2019 : </p>
                 <div className="grid grid-cols-2">
                     <div className="col-span-1">
                         <div className="grid ml-16 mr-4">
@@ -51,7 +51,7 @@ export const Competitions = () => {
                     <div className="col-span-1">
                         <div className="grid">
                             
-                            <p className="text-3xl font-bold ml-4 -mt-16"> Competition on 2020 : </p>
+                            <p className="text-3xl font-bold ml-4 -mt-16"> Competitions on 2020 : </p>
                             <div class="mr-16 ml-4 p-5 mb-4 rounded-lg border bg-gray-800 border-gray-700">
                                 <ol class="mt-3 divide-y divide-gray-700">
                                     <li>
