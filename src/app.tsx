@@ -1,26 +1,22 @@
-import { Homepage } from './Pages/Homepage';
-import { ActivitiesPage } from './Pages/ActivitiesPage';
-import { CompetitionsPage } from './Pages/CompetitionsPage';
-import { InformationPages } from './Pages/InformationPage';
-import { WorksPage } from './Pages/WorksPage';
-
-
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-
-
+import { Navbar } from './Components/Navbar'
+import { Myself } from './Components/Myself'
+import { Information } from './Components/Information'
+import { Competitions } from './Components/Competitions';
+import { Activities } from './Components/Activities';
+import { Works } from './Components/Works';
+import { Footer } from './Components/Footer';
 export function App() {
   return (
 
-    <BrowserRouter basename={import.meta.env.VITE_BASE_PATH}>
-        <Routes>
-          <Route path="/" element={<Homepage/>} />
-          <Route path="/information" element={<InformationPages />} />
-          <Route path="/competitions" element={<CompetitionsPage />} />
-          <Route path="/activities" element={<ActivitiesPage />} />
-          <Route path="/works" element={<WorksPage />} />
-          <Route path="*" element={<Navigate to="/" />} />        
-        </Routes>
-    </BrowserRouter>
+    <div>
+      <Navbar />
+      <div className="bg-gradient-to-b from-gray-900 to-slate-800 flex flex-col text-white pt-32 pb-32"><Myself/></div>
+      <div className="bg-gradient-to-b from-slate-800 to-slate-800 flex flex-col text-white"><Information/></div>
+      <div className="bg-gradient-to-b from-slate-800 to-slate-700 flex flex-col text-white "><Competitions/></div>
+      <div className="bg-gradient-to-b from-slate-700 to-slate-700 flex flex-col text-white "><Activities/></div>
+      <div className="bg-gradient-to-b from-slate-700 to-slate-600 flex flex-col text-white "><Works/></div>
+      <Footer/>
+    </div>
     
   );
 }
