@@ -35,7 +35,7 @@ export const Navbar = () => {
           <ul class="flex flex-col p-4 mt-4 rounded-lg border  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  bg-gray-800 md:bg-gray-900 border-gray-700 ">
             <li>
               <a
-                href="/"
+                href="#home-section"
                 class="block py-2 pr-4 pl-3  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 Home
@@ -43,7 +43,7 @@ export const Navbar = () => {
             </li>
             <li>
               <a
-                href="/information"
+                href="#information-section"
                 class="block py-2 pr-4 pl-3  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 Information
@@ -51,7 +51,7 @@ export const Navbar = () => {
             </li>
             <li>
               <a
-                href="/competitions"
+                href="#competitions-section"
                 class="block py-2 pr-4 pl-3  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 Competitions
@@ -59,7 +59,7 @@ export const Navbar = () => {
             </li>
             <li>
               <a
-                href="/activities"
+                href="#activities-section"
                 class="block py-2 pr-4 pl-3  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 Activities
@@ -67,7 +67,7 @@ export const Navbar = () => {
             </li>
             <li>
               <a
-                href="/works"
+                href="#works-section"
                 class="block py-2 pr-4 pl-3  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
               >
                 Works
